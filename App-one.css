@@ -1,0 +1,35 @@
+body{
+  padding: 15px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  border: 2px solid #000;
+  width: 50%;
+  padding: 30px;
+  margin: 10vh;
+  transform: translateX(40vh);
+  background-color: #000;
+  border-radius: 10px;
+}
+.input-content{
+  border: 2px solid #fff;
+  padding: 7px;
+  margin: 10px;
+  width: 100%;
+  outline: 0;
+  background-color: #fdfdff;
+}
+button{
+  width: 50%;
+  transform: translateX(20px);
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: #000;
+}
