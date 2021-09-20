@@ -51,10 +51,10 @@ export default class LogIn extends React.Component {
         <center>
         <>
           <tr>
-            <td><input type="email" placeholder="Email" onChange={this.handleChange} name="email" className="input-content"/></td>
+            <td><input type="email" value="this.state.email" placeholder="Email" onChange={this.handleChange} name="email" className="input-content"/></td>
           </tr>
           <tr>
-            <td><input type="password" placeholder="Password" onChange={this.handleChange} name="password" className="input-content" /></td>
+            <td><input type="password" value="this.state.password" placeholder="Password" onChange={this.handleChange} name="password" className="input-content" /></td>
           </tr>
           <tr>
             <td><button type="button" onClick={this.handleLoginUser}>SigIn</button></td>
